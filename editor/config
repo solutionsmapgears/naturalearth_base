@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------------------------- 
+The order in which the ".layer" files are included. Note that the order is the same 
+as Mapserver's which means the first ".layer" included is at the bottom of the map 
+and the last one is at the top. Also note that a ".layer" file can contain more 
+than one LAYER definition. They're generally used to regroup many layers of the same 
+theme. The path can be absolute of relative to the scribe.py file.
+----------------------------------------------------------------------------------*/
+ORDER {
+    1: groups/admin
+    2: groups/cities
+    3: groups/land
+    4: groups/ocean
+    5: groups/roads
+    6: groups/urban
+    7: groups/water
+}
