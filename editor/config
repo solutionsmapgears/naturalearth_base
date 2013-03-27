@@ -6,11 +6,11 @@ than one LAYER definition. They're generally used to regroup many layers of the 
 theme. The path can be absolute of relative to the scribe.py file.
 ----------------------------------------------------------------------------------*/
 ORDER {
-    1: groups/admin
-    2: groups/cities
-    3: groups/land
-    4: groups/ocean
-    5: groups/roads
-    6: groups/urban
-    7: groups/water
+    1: groups/ocean
+    2: groups/land
+    3: groups/urban
+    4: groups/water
+    5: groups/admin
+    6: groups/roads
+    7: groups/cities
 }

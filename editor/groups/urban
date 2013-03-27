@@ -4,8 +4,8 @@ LAYER {
         TYPE: POLYGON
         @layerconfig
         DATA {
-            5-10: '50m_cultural/ne_50m_urban_areas'
-            11-16: '10m_cultural/ne_10m_urban_areas'		
+            5-10: '50m/ne_50m_urban_areas'
+            11-16: '10m/ne_10m_urban_areas'		
 	    }
         CLASS {
             STYLE {

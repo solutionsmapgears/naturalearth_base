@@ -4,9 +4,9 @@ LAYER {
         TYPE: LINE
         @layerconfig
         DATA {
-            1-5: '110m_physical/ne_110m_coastline'
-			6-10: '50m_physical/ne_50m_coastline'
-            11-16: '10m_physical/ne_10m_coastline'
+            1-5: '110m/ne_110m_coastline'
+			6-10: '50m/ne_50m_coastline'
+            11-16: '10m/ne_10m_coastline'
 		}
         CLASS {
             STYLE {
@@ -22,9 +22,9 @@ LAYER {
         TYPE: POLYGON
         @layerconfig
         DATA {
-            1-4: '110m_physical/ne_110m_lakes'
-            5-10: '50m_physical/ne_50m_lakes'
-            11-16: '10m_physical/ne_10m_lakes'		
+            1-4: '110m/ne_110m_lakes'
+            5-10: '50m/ne_50m_lakes'
+            11-16: '10m/ne_10m_lakes'		
 		}
         CLASS {
             STYLE {
@@ -41,8 +41,8 @@ LAYER {
         TYPE: LINE
         @layerconfig
         DATA {
-            5-10: '50m_physical/ne_50m_rivers_lake_centerlines_scale_rank'
-            11-16: '10m_physical/ne_10m_rivers_lake_centerlines_scale_rank'	
+            5-10: '50m/ne_50m_rivers_lake_centerlines_scale_rank'
+            11-16: '10m/ne_10m_rivers_lake_centerlines_scale_rank'	
 		}
     	LABELITEM: "name"
         CLASS {

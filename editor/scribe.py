@@ -459,6 +459,12 @@ def main():
     if (error == ""):
         jsonInput = inputScalesContent + "\n" + inputVariablesContent + "\n" + inputMapContent + "\n" + inputLayersContent;
         jsonContent = string2json(jsonInput);
+   
+        jsonfile = codecs.open(outputDirectory + "tmpmap.json", encoding='utf-8', mode='w+')
+        jsonfile.write(jsonContent)
+        jsonfile.close()
+
+     
         jsonToMap(jsonContent, outputDirectory, mapName, clean)
     else:
         print error

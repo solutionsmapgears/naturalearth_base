@@ -4,9 +4,9 @@ LAYER {
         TYPE: POLYGON
         @layerconfig
         DATA {
-            1-5: '110m_physical/ne_110m_land'
-            6-10: '50m_physical/ne_50m_land'
-            11-16: '10m_physical/ne_10m_land'
+            1-5: '110m/ne_110m_land'
+            6-10: '50m/ne_50m_land'
+            11-16: '10m/ne_10m_land'
 	    }
         CLASS {
             STYLE {

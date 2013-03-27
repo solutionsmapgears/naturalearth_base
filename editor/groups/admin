@@ -4,9 +4,9 @@ LAYER {
         TYPE: LINE
         @layerconfig
         DATA {
-	    1-5: '110m_cultural/ne_110m_admin_0_boundary_lines_land'
-            6-10: '50m_cultural/ne_50m_admin_0_boundary_lines_land'
-            11-16: '10m_cultural/ne_10m_admin_0_boundary_lines_land'
+	    1-5: '110m/ne_110m_admin_0_boundary_lines_land'
+            6-10: '50m/ne_50m_admin_0_boundary_lines_land'
+            11-16: '10m/ne_10m_admin_0_boundary_lines_land'
 	    }
         CLASS {
             STYLE {
@@ -22,9 +22,9 @@ LAYER {
         TYPE: POLYGON
         @layerconfig
         DATA {
-	    1-5: '110m_cultural/ne_110m_admin_0_countries'
-            6-10: '50m_cultural/ne_50m_admin_0_countries'
-            11-16: '10m_cultural/ne_10m_admin_0_countries'
+	    1-5: '110m/ne_110m_admin_0_countries'
+            6-10: '50m/ne_50m_admin_0_countries'
+            11-16: '10m/ne_10m_admin_0_countries'
 	    }
     	LABELITEM: 'NAME'
         CLASS {
@@ -52,8 +52,8 @@ LAYER {
         TYPE: LINE
         @layerconfig
         DATA {
-	    1-5: '110m_cultural/ne_110m_admin_1_states_provinces_lines'
-            6-16: '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+	    1-5: '110m/ne_110m_admin_1_states_provinces_lines'
+            6-16: '50m/ne_50m_admin_1_states_provinces_lines'
 		}
         CLASS {
             STYLE {
@@ -69,8 +69,8 @@ LAYER {
         TYPE: POLYGON
         @layerconfig
         DATA {
-	        1-5: '110m_cultural/ne_110m_admin_1_states_provinces_shp'
-            6-16: '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+	        1-5: '110m/ne_110m_admin_1_states_provinces_shp'
+            6-16: '50m/ne_50m_admin_1_states_provinces_shp'
 	    }
     	LABELITEM: 'NAME'
         CLASS {
