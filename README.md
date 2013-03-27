@@ -19,6 +19,6 @@ Run makefile for automatic download costumize your mapfile and have fun!  The la
 
 ## testing
 
-http://localhost:8080/cgi-bin/mapserv?map=/your_path/natural_earth.map&LAYERS=default&template=openlayers
+http://localhost:8080/cgi-bin/mapserv?map=/your_path/naturalearth_base.map&LAYERS=default&template=openlayers
 
 ![alt text](https://github.com/smercier/naturalearth_base/blob/master/img/ne_scribe_map.png?raw=true "ne map")
