@@ -6,6 +6,7 @@ Basemap scribe Mapserver projet for Naturel Earth data.  This map is not
 ## Requires
  
  * Mapserver
+ * Python 2.7
 
 ## Instruction
 
@@ -19,4 +20,6 @@ Run makefile for automatic download costumize your mapfile and have fun!  The la
 ## testing
 
 http://localhost:8080/cgi-bin/mapserv?map=/your_path/natural_earth.map&LAYERS=default&template=openlayers
+
+![Image](../blob/master/public_html/img/ne_scribe_map.png?raw=true)
 
