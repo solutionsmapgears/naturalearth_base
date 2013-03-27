@@ -1,7 +1,7 @@
 Natural Earth scribe base map
 ============================
 
-Basemap scribe Mapserver projet for Naturel Earth data.  This map is not 
+Scribe Mapserver projet for Naturel Earth data.  This map is work in progress ...
 
 ## Requires
  
